@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/yeux/static/css/main.d1b05096.chunk.css",
+    "main.js": "/yeux/static/js/main.db8db6c5.chunk.js",
+    "main.js.map": "/yeux/static/js/main.db8db6c5.chunk.js.map",
+    "runtime-main.js": "/yeux/static/js/runtime-main.77e52bc0.js",
+    "runtime-main.js.map": "/yeux/static/js/runtime-main.77e52bc0.js.map",
+    "static/js/2.3b5b19c7.chunk.js": "/yeux/static/js/2.3b5b19c7.chunk.js",
+    "static/js/2.3b5b19c7.chunk.js.map": "/yeux/static/js/2.3b5b19c7.chunk.js.map",
+    "index.html": "/yeux/index.html",
+    "precache-manifest.95a06bb675a775a5a316b23413d1ced2.js": "/yeux/precache-manifest.95a06bb675a775a5a316b23413d1ced2.js",
+    "service-worker.js": "/yeux/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/yeux/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.3b5b19c7.chunk.js.LICENSE": "/yeux/static/js/2.3b5b19c7.chunk.js.LICENSE",
+    "static/media/logo.svg": "/yeux/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77e52bc0.js",
+    "static/js/2.3b5b19c7.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.db8db6c5.chunk.js"
+  ]
+}
