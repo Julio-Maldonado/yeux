@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c356ba8c9c8270717de96dd424fe7618",
+    "revision": "668c03ebdce5640c5f30245c2de9f764",
     "url": "/yeux/index.html"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yeux/static/js/4.0c48ee00.chunk.js"
   },
   {
-    "revision": "87d3dc9f6de73080f360",
-    "url": "/yeux/static/js/main.e129bcab.chunk.js"
+    "revision": "33623ca1ac130a9bd7bf",
+    "url": "/yeux/static/js/main.c5e5572e.chunk.js"
   },
   {
     "revision": "8822c89abacdd5ed0c54",
