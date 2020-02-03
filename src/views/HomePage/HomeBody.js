@@ -11,6 +11,8 @@ import Services from './components/Services';
 import PastWork from './components/PastWork';
 import Contact from './components/Contact';
 
+import './styles.css';
+
 const determineScreenState = (width) => {
   if (width > 1500) {
     return "wide";

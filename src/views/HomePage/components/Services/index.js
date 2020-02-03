@@ -26,7 +26,7 @@ const ServiceImageWrapper = styled.div`
 
 const ServiceTextWrapper = styled.div`
   align-items: flex-start;
-  width: ${props => props.width} * 0.5;
+  width: ${props => props.width * 0.5}px;
   justify-content: center;
 `;
 
@@ -69,7 +69,7 @@ const Services = ({ id, width, height, screenState }) => {
             style={imgStyle}
           />
         </ServiceImageWrapper>
-        <ServiceTextWrapper>
+        <ServiceTextWrapper width={width}>
           <h3 style={{ color: '#F2F2F2' }}>Digital Marketing and SEO</h3>
           <H4 color="#F2F2F2" style={{ marginRight: '10vw' }}>
             Attract leads that actually <i>matter</i>.
@@ -84,7 +84,7 @@ const Services = ({ id, width, height, screenState }) => {
             style={imgStyle}
           />
         </ServiceImageWrapper>
-        <ServiceTextWrapper>
+        <ServiceTextWrapper width={width}>
           <h3 style={{ color: '#F2F2F2' }}>Real Time Analytics</h3>
           <H4 color="#F2F2F2" style={{ marginRight: '10vw' }}>
             Discover who&#39;s visiting your site and <i>why</i>.
@@ -99,7 +99,7 @@ const Services = ({ id, width, height, screenState }) => {
             style={imgStyle}
           />
         </ServiceImageWrapper>
-        <ServiceTextWrapper>
+        <ServiceTextWrapper width={width}>
           <h3 style={{ color: '#F2F2F2' }}>Cross Platform Friendly</h3>
           <H4 color="#F2F2F2" style={{ marginRight: '10vw' }}>
             We&#39;ll ensure a <i>seamless</i> mobile and desktop experience.
@@ -114,7 +114,7 @@ const Services = ({ id, width, height, screenState }) => {
             style={imgStyle}
           />
         </ServiceImageWrapper>
-        <ServiceTextWrapper>
+        <ServiceTextWrapper width={width}>
           <h3 style={{ color: '#F2F2F2' }}>Relevant Designs</h3>
           <H4 color="#F2F2F2" style={{ marginRight: '10vw' }}>
             Using <i>your</i> preferences, we&#39;ll deliver a modern and

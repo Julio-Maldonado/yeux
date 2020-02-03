@@ -7,8 +7,6 @@ import ScrollMenu from 'react-horizontal-scrolling-menu';
 import { PASTWORKS } from '../data/constants';
 import { PastWorkList } from './PastWorkList';
 
-import '../removeMargins.css';
-
 const selected = PASTWORKS[0].title;
 
 const SectionWrapper = styled.div`
