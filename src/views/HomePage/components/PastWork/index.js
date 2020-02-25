@@ -13,6 +13,7 @@ const SectionWrapper = styled.div`
   padding: 0;
   margin: 0;
   padding-top: ${props => props.paddingTop};
+  height: 100%;
 `;
 
 class PastWork extends React.Component {
@@ -28,6 +29,7 @@ class PastWork extends React.Component {
     const {
       id,
       width,
+      height,
       screenState
     } = this.props;
 
@@ -75,20 +77,22 @@ class PastWork extends React.Component {
 
     return (
       <SectionWrapper id={id} paddingTop={paddingTop}>
-        <div style={{ textAlign: 'center' }}>
-          <H2>Our Past Work</H2>
+        <div style={{ height }}>
+          <div style={{ textAlign: 'center' }}>
+            <H2>Our Past Work</H2>
+          </div>
+          <ScrollMenu
+            data={pastWorkList}
+            selected={selected}
+            onSelect={this.onSelect}
+            hideSingleArrow={true}
+            scrollToSelected={true}
+            alignCenter={true}
+            dragging={false}
+            clickWhenDrag={false}
+            wheel={false}
+          />
         </div>
-        <ScrollMenu
-          data={pastWorkList}
-          selected={selected}
-          onSelect={this.onSelect}
-          hideSingleArrow={true}
-          scrollToSelected={true}
-          alignCenter={true}
-          dragging={false}
-          clickWhenDrag={false}
-          wheel={false}
-        />
       </SectionWrapper>
     );
   }
@@ -97,6 +101,7 @@ class PastWork extends React.Component {
 PastWork.propTypes = {
   id: PropTypes.string.isRequired,
   width: PropTypes.number.isRequired,
+  height: PropTypes.number.isRequired,
   screenState: PropTypes.string.isRequired,
 };
 
