@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b1d9b1eb77b6505c2c8854a76116cc7",
+    "revision": "8ae87a203eb96eb88bd6bd4220315085",
     "url": "/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/3.6b280986.chunk.css"
   },
   {
-    "revision": "330f315f4d13b69bc6dd",
+    "revision": "25e600b5934ecf9d8f76",
     "url": "/static/css/4.9ec369d2.chunk.css"
   },
   {
-    "revision": "0b344df419b4b0cb26e0",
-    "url": "/static/js/2.33ca68d1.chunk.js"
+    "revision": "c6c331f3edd70b736c36",
+    "url": "/static/js/2.f31c47cf.chunk.js"
   },
   {
     "revision": "81896c98bac7b5b16ab1d3790da5b937",
-    "url": "/static/js/2.33ca68d1.chunk.js.LICENSE"
+    "url": "/static/js/2.f31c47cf.chunk.js.LICENSE"
   },
   {
     "revision": "3caee1220086d3cb0c20",
@@ -28,16 +28,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/3.4f3d09a2.chunk.js.LICENSE"
   },
   {
-    "revision": "330f315f4d13b69bc6dd",
-    "url": "/static/js/4.ae4e9ca8.chunk.js"
+    "revision": "25e600b5934ecf9d8f76",
+    "url": "/static/js/4.2e319b08.chunk.js"
   },
   {
-    "revision": "31ed494317a22a103e8a",
-    "url": "/static/js/main.1e5f0c16.chunk.js"
+    "revision": "acc08fa26cd487f0f397",
+    "url": "/static/js/main.002d7465.chunk.js"
   },
   {
-    "revision": "169a745e548de0ca72cd",
-    "url": "/static/js/runtime-main.339e23ad.js"
+    "revision": "f40401188f7a7531c22c",
+    "url": "/static/js/runtime-main.960eb023.js"
   },
   {
     "revision": "a92bb7b629c07dc6786ddf26952c2989",
@@ -78,6 +78,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b068bfda47b0153302524fef08576d9f",
     "url": "/static/media/real_time_analytics_v2.b068bfda.png"
+  },
+  {
+    "revision": "1e6bbcca250967094278af851f582b3d",
+    "url": "/static/media/rgv_covid_site.1e6bbcca.png"
+  },
+  {
+    "revision": "118a0a6bf16dee5510c2326e20dfad09",
+    "url": "/static/media/rgv_covid_site_mobile.118a0a6b.png"
   },
   {
     "revision": "7dd9e7c4cb4e99b34985be9fd414eeb0",
