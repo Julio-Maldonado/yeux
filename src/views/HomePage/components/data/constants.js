@@ -1,11 +1,14 @@
 import YeuxSite from '../PastWork/images/yeux_site.png';
 import YeuxSiteMobile from '../PastWork/images/yeux_site_mobile.png';
+import RGVCovidSite from '../PastWork/images/rgv_covid_site.png';
+import RGVCovidSiteMobile from '../PastWork/images/rgv_covid_site_mobile.png';
 import LoveYoursSite from '../PastWork/images/love_yours_site.png';
 import LoveYoursSiteMobile from '../PastWork/images/love_yours_site_mobile.png';
 import JulioMaldonadoSite from '../PastWork/images/julio_maldonado_site.png';
 import JulioMaldonadoSiteMobile from '../PastWork/images/julio_maldonado_site_mobile.png';
 import FiestasPhotoboothSite from '../PastWork/images/fiestas_photobooth_site.png';
 import FiestasPhotoboothSiteMobile from '../PastWork/images/fiestas_photobooth_site_mobile.png';
+
 
 const PASTWORKS = [
   {
@@ -59,6 +62,19 @@ const PASTWORKS = [
     projectLength: '3 weeks',
     engineersNeeded: '2',
     url: 'http://yeux.tech/',
+  },
+  {
+    image: RGVCovidSite,
+    mobileImage: RGVCovidSiteMobile,
+    title: 'RGV Covid-19 Curve',
+    subtitle: 'Public Knowledge Website',
+    description:
+      'Developed and maintained a public website to graph the RGV covid-19 curvey during the pandemic',
+    logo: '',
+    startDate: 'April 20, 2020',
+    projectLength: '1 week',
+    engineersNeeded: '1',
+    url: 'http://rgvcovid19cases.com/',
   },
 ];
 

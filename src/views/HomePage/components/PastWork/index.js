@@ -88,7 +88,7 @@ class PastWork extends React.Component {
             hideSingleArrow={true}
             scrollToSelected={true}
             alignCenter={true}
-            dragging={false}
+            dragging={true}
             clickWhenDrag={false}
             wheel={false}
           />
